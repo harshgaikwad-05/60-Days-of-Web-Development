@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+
+    <!-- Lining the Css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Forms and Input Tags</h1>
+    <form action="">
+        <p><strong>Employee Details</strong></p>
+
+        <label for="name">Name :</label>
+        <input type="text" name="Full Name" id="name" placeholder="Full Name">
+
+        <br>
+
+        <label for="Work">Work experience :</label>
+        <input type="number" name="work" id="Work">
+
+        <br>
+
+        <label for="Gender">Gender :</label>
+
+        <!-- Type is input type, name should be same in the radio input system, id is the unique identifier, and value is what gets submitted when that input is selected -->
+        <!-- Type - What is it, ID - Who are you, name - Which Group?, value - What data do you send -->
+        <input type="radio" name="Gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+
+        <br>
+
+        <input type="checkbox" name="subscribe" id="offer" value="yes">
+        <label for="offer">Have the offer letter</label>
+
+        <br>
+
+        <label for="exoerience">Your Experience :</label>
+        <br>
+        <textarea name="vomment" id="experience" placeholder="Describe your past experience here"></textarea>
+
+        <br>
+
+        <label for="salary">Your Past Salary</label>
+        <select name="salary" id="salary">
+            <option value="less-than-1">Less than 1</option>
+            <option value="1">1 Lakh</option>
+            <option value=">1">More Than 1</option>
+        </select>
+
+        <br>
+
+        <button>Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
