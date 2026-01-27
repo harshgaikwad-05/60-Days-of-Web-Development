@@ -1,0 +1,17 @@
+/* The classes in css is targeted using the "." dot */
+/* We can target the multiple class at same time and give the same class to different Tags */
+
+.tenth_class {
+    background-color: aqua;
+}
+
+/* The ID in css is the unique identifier and can only given to a single Tag */
+/* We can target the ID using the "#" in css */
+
+#first_div {
+    background-color: bisque;
+}
+
+#second_div {
+    background-color: burlywood;
+}
