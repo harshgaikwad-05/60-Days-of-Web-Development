@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+
+    <!-- Linking the css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* This is the internal CSS as it is used inside the HTML document */
+        h2,
+        h1 {
+            /* we can use multiple selectors using the "," sepration */
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Learning about the CSS - Cascading Style Sheets</h1>
+        <h2><strong>There are 3 types of CSS</strong></h2>
+        <ul>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ul>
+    </div>
+
+    <p style="color: rgb(48, 121, 155); background-color: rgb(251, 185, 185);">Hello this is the Inline CSS</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
