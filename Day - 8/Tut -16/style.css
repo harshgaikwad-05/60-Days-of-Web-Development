@@ -1,0 +1,87 @@
+/* Universal selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element selector */
+p {
+    color: #333;
+}
+
+/* ID selector */
+#header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+/* Class selector */
+.card {
+    border: 2px solid #007BFF;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Grouping selector */
+h1,
+h2,
+h3 {
+    color: #007BFF;
+}
+
+/* Descendant selector */
+section p {
+    color: green;
+}
+
+/* Child selector */
+.menu>li {
+    list-style: none;
+    padding: 5px;
+}
+
+/* Adjacent sibling selector */
+h3+p {
+    color: red;
+}
+
+/* General sibling selector */
+h3~p {
+    font-style: italic;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+/* Pseudo-class */
+a:hover {
+    color: orange;
+}
+
+/* Checked pseudo-class */
+input:checked {
+    outline: 2px solid green;
+}
+
+/* nth-child pseudo-class */
+ol li:nth-child(2) {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pseudo-element */
+.intro::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+/* Before & after pseudo-elements */
+.intro::before {
+    content: "👉 ";
+}
+
+.intro::after {
+    content: " 👈";
+}
