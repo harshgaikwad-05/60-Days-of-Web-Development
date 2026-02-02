@@ -1,0 +1,79 @@
+/* ------------------------------
+   GENERAL PAGE STYLING
+--------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* ------------------------------
+   BOX MODEL EXAMPLE
+--------------------------------*/
+.box {
+    /* CONTENT */
+    width: 300px;
+    height: 100px;
+    background-color: #b3e5fc;
+    color: #000;
+
+    /* PADDING
+       Space between content and border */
+    padding: 20px;
+
+    /* BORDER
+       Surrounds padding and content */
+    border: 5px solid #0288d1;
+
+    /* MARGIN
+       Space outside the box */
+    margin: 30px;
+
+    /* Just for better readability */
+    font-size: 16px;
+}
+
+/* ------------------------------
+   SECOND BOX (to show margin gap)
+--------------------------------*/
+.second-box {
+    background-color: #c8e6c9;
+    border-color: #2e7d32;
+}
+
+/* ------------------------------
+   BOX-SIZING EXPLANATION
+--------------------------------*/
+
+/*
+By default:
+width = content only
+
+Total width =
+content + padding + border
+
+Example:
+width: 300px
+padding: 20px (left + right = 40px)
+border: 5px (left + right = 10px)
+
+Total width = 350px
+*/
+
+/* Uncomment this to include padding and border
+   inside the width */
+
+/*
+.box {
+    box-sizing: border-box;
+}
+*/
