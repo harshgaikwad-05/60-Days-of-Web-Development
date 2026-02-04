@@ -1,0 +1,93 @@
+/* =========================================
+   UNIVERSAL SELECTOR
+   Specificity: 0
+   This applies to ALL elements on the page
+   ========================================= */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* =========================================
+   ELEMENT SELECTOR
+   Specificity: 1
+   Targets elements by their tag name
+   ========================================= */
+body {
+    background-color: #fff5f5;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* =========================================
+   ELEMENT SELECTOR (list & paragraph)
+   Specificity: 1
+   ========================================= */
+p {
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* =========================================
+   CLASS SELECTOR
+   Specificity: 10
+   Stronger than element selectors
+   ========================================= */
+.highlight {
+    color: crimson;
+    font-weight: bold;
+}
+
+/* =========================================
+   ID SELECTOR
+   Specificity: 100
+   Stronger than class and element selectors
+   ========================================= */
+#main-title {
+    color: purple;
+}
+
+/* =========================================
+   ATTRIBUTE SELECTOR
+   Specificity: 10
+   Same weight as class selectors
+   ========================================= */
+ul[type="square"] {
+    list-style-type: square;
+}
+
+/* =========================================
+   PSEUDO-CLASS
+   Specificity: 10
+   Applies based on element state
+   ========================================= */
+li:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* =========================================
+   INLINE STYLES (not written here)
+   Specificity: 1000
+   Example:
+   <h1 style="color:red;">This will override everything above</h1>
+   ========================================= */
+
+/* =========================================
+   !IMPORTANT
+   Overrides ALL specificity rules
+   Use sparingly — can break the cascade
+   ========================================= */
+p {
+    color: black !important;
+}

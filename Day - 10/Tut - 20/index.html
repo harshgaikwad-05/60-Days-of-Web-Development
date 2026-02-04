@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            CSS follows the Cascade algorithm.
+        </h1>
+    </header>
+    <main>
+        <ul>
+            <h2>CSS FOLLOWS THE: </h2>
+            <li>Position and order of appearance: the order in which your CSS rules appear</li>
+            <li>Specificity: an algorithm that determines which CSS selector has the strongest match (inline > ID >
+                class > element > universal)</li>
+            <li>Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS
+                from a browser extension, or your authored CSS</li>
+            <li>Importance: some CSS rules are weighted more heavily than others, especially with the !important rule
+                type</li>
+        </ul>
+        <h2>CSS Follows the specificity Hierarchy :</h2>
+        <p>Inline Style > ID Selector > Class/Attribute/Pseudo-class > Element Selector > Universal Selector</p>
+        <ul>
+            <h2>Specificity Calculation</h2>
+            <p>To calculate specificity, assign a value to each part of the selector.</p>
+            <li>Universal selector : 0</li>
+            <li>Element selectors and pseudo-elements : 1</li>
+            <li>Class selectors, attribute selectors and pseudo-classes : 10</li>
+            <li>ID selectors : 100</li>
+            <li>Inline Styles : 1000</li>
+        </ul>
+    </main>
+</body>
+
+</html>
