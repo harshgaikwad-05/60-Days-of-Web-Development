@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 254, 252);
+}
+
+p:nth-child(1) {
+    background-color: rgb(245, 245, 198);
+    color: red;
+    border-left: 5px solid yellow;
+}
+
+p {
+    background: rgb(157, 157, 228);
+    color: white;
+    border-left: 5px solid blue;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
