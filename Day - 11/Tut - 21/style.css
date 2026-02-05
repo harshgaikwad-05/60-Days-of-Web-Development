@@ -1,0 +1,79 @@
+/* 
+  ROOT FONT SIZE
+  1rem = 16px
+*/
+html {
+    font-size: 16px;
+}
+
+/* -------------------------- */
+/* vh and vw (screen size)    */
+/* -------------------------- */
+
+.hero {
+    /* 100vh = full screen height */
+    height: 100vh;
+
+    /* 100vw = full screen width */
+    width: 100vw;
+
+    background-color: lightblue;
+
+    /* center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------- */
+/* rem (relative to root)     */
+/* -------------------------- */
+
+h1 {
+    /* 2rem = 32px */
+    font-size: 2rem;
+}
+
+p {
+    /* 1rem = 16px */
+    font-size: 1rem;
+}
+
+/* -------------------------- */
+/* em (relative to itself)    */
+/* -------------------------- */
+
+.btn {
+    /* text size */
+    font-size: 1rem;
+
+    /*
+    padding uses em
+    1em = size of the button text
+  */
+    padding: 0.5em 1em;
+
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* -------------------------- */
+/* px (fixed size)            */
+/* -------------------------- */
+
+.box {
+    /* fixed width and height */
+    width: 200px;
+    height: 100px;
+
+    background-color: lightcoral;
+
+    /* fixed text size */
+    font-size: 14px;
+
+    margin: 20px;
+    padding: 10px;
+}
