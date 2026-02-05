@@ -1,0 +1,96 @@
+BLOCK ELEMENTS vs INLINE ELEMENTS
+--------------------------------
+
+Think of a webpage like a floor full of toys 🧸
+
+====================
+BLOCK ELEMENTS
+====================
+
+Block elements are BIG toys.
+
+What they do:
+- Start on a NEW LINE
+- Take the FULL WIDTH of the page
+- Push other elements above or below them
+
+Like:
+A big box on the floor 📦
+Nothing can sit next to it
+
+Examples of block elements:
+- div
+- p
+- h1, h2, h3, h4, h5, h6
+- section
+- article
+- header
+- footer
+- ul
+- ol
+- li
+
+How they look:
+
+[ BLOCK ELEMENT ]
+[ BLOCK ELEMENT ]
+[ BLOCK ELEMENT ]
+
+
+====================
+INLINE ELEMENTS
+====================
+
+Inline elements are SMALL toys.
+
+What they do:
+- Stay on the SAME LINE
+- Take ONLY the space they need
+- Sit next to other inline elements
+
+Like:
+Stickers in a row ⭐⭐⭐
+
+Examples of inline elements:
+- span
+- a
+- strong
+- em
+- b
+- i
+- img
+- label
+
+How they look:
+
+INLINE INLINE INLINE INLINE
+
+====================
+IMPORTANT DIFFERENCE
+====================
+
+BLOCK:
+- New line ❌ sit next to others
+- Full width
+- Big and chunky
+
+INLINE:
+- Same line ✅
+- Only needed width
+- Small and light
+
+====================
+FUN FACT
+====================
+
+You can change behavior using CSS!
+
+Example:
+
+display: block;
+display: inline;
+display: inline-block;
+
+====================
+END
+====================

@@ -1,0 +1,93 @@
+/* 
+  Make the page look friendly
+*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* -------------------- */
+/* BLOCK */
+/* -------------------- */
+/*
+  Block elements:
+  - Take full width
+  - Always start on a new line
+*/
+.block-box {
+    display: block;
+    /* This is default for div */
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* -------------------- */
+/* INLINE */
+/* -------------------- */
+/*
+  Inline elements:
+  - Sit next to each other
+  - Cannot change width/height properly
+*/
+.inline-box {
+    display: inline;
+    /* This is default for span */
+    background-color: pink;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* -------------------- */
+/* INLINE-BLOCK */
+/* -------------------- */
+/*
+  Inline-block elements:
+  - Sit next to each other
+  - CAN change width and height
+*/
+.inline-block-box {
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    background-color: lightgreen;
+    margin: 5px;
+    text-align: center;
+    line-height: 60px;
+    /* Centers text vertically */
+}
+
+/* -------------------- */
+/* DISPLAY NONE */
+/* -------------------- */
+/*
+  display: none
+  - Element disappears
+  - No space left
+*/
+.none-box {
+    display: none;
+    background-color: red;
+    padding: 10px;
+}
+
+/* -------------------- */
+/* VISIBILITY HIDDEN */
+/* -------------------- */
+/*
+  visibility: hidden
+  - Element is invisible
+  - Space is STILL there
+*/
+.hidden-box {
+    visibility: hidden;
+    background-color: orange;
+    padding: 10px;
+}
+
+/* Normal visible box */
+.normal-box {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
