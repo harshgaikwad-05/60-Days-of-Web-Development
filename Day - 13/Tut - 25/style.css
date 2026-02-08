@@ -1,0 +1,88 @@
+/* 
+    Basic styling for the box
+*/
+.box {
+    height: 10vh;
+    /* Height of the box (10% of viewport height) */
+    width: 30vw;
+    /* Width of the box (30% of viewport width) */
+    border: 2px solid black;
+    /* Visible border to show box boundaries */
+    padding: 10px;
+    /* Space between text and border */
+
+    /*
+    =========================
+    OVERFLOW PROPERTIES
+    =========================
+    */
+
+    /* 
+        overflow: visible;
+        ------------------
+        Default behavior.
+        Content overflows outside the box and remains visible.
+    */
+    /* overflow: visible; */
+
+    /*
+        overflow: hidden;
+        -----------------
+        Extra content is clipped and NOT visible.
+        No scrollbars are shown.
+    */
+    /* overflow: hidden; */
+
+    /*
+        overflow: scroll;
+        -----------------
+        Scrollbars are ALWAYS shown (horizontal + vertical),
+        even if content does not overflow.
+    */
+    overflow: scroll;
+
+    /*
+        overflow: auto;
+        --------------
+        Scrollbars appear ONLY if content overflows.
+        This is the most commonly used option.
+    */
+    /* overflow: auto; */
+
+    /*
+        overflow-x and overflow-y
+        -------------------------
+        Control horizontal and vertical overflow separately.
+    */
+    /* overflow-x: hidden; */
+    /* Hides horizontal overflow */
+    /* overflow-y: auto; */
+    /* Vertical scrollbar only if needed */
+
+    /*
+        white-space: nowrap;
+        -------------------
+        Prevents text from wrapping to the next line.
+        Often used with overflow and text-overflow.
+    */
+    /* white-space: nowrap; */
+
+    /*
+        text-overflow: ellipsis;
+        -----------------------
+        Shows "..." when text overflows.
+        Works ONLY when:
+        - overflow is hidden
+        - white-space is nowrap
+    */
+    /* text-overflow: ellipsis; */
+}
+
+/* 
+    Most commonly used overflows are :
+    overflow: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+*/
