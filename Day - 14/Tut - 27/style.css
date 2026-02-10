@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 225, 255);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+    font-family: "Poppins", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    border: 1px solid rgb(198, 198, 198);
+    height: 515px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+}
+
+img {
+    height: 220px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.capsule {
+    margin-top: 12px;
+}
+
+.capsule span {
+    color: rgb(80, 80, 80);
+    margin: 2px;
+    border: 1px solid rgb(172, 172, 172);
+    padding: 2px 13px;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: rgb(214, 214, 214);
+    font-family: "Bebas Neue", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heAd {
+    margin-top: 15px;
+    margin-left: 2px;
+    font-family: "Poppins", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.para {
+    margin-top: 12px;
+    font-family: "Poppins", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.btn {
+    text-align: center;
+    margin: 12px;
+}
+
+button {
+    padding: 7px 17px;
+    background-color: rgb(163, 200, 255);
+    border-radius: 23px;
+    font-family: "Bebas Neue", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(83, 152, 255);
+    color: rgb(255, 255, 255);
+}
