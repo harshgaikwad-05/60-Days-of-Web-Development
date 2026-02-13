@@ -1,0 +1,43 @@
+/* Reset Default Spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables (Colors) */
+:root {
+    --primarycolor: rgb(106, 106, 239);
+    --secondarycolor: rgb(168, 168, 255);
+}
+
+/* Body Styling */
+body {
+    background-color: var(--secondarycolor);
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background-color: var(--primarycolor);
+}
+
+/* Navigation Styling */
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+/* Section Styling */
+h2 {
+    margin: 20px;
+}
